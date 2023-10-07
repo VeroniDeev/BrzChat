@@ -17,6 +17,6 @@ html, body {
 
 body {
     display: grid;
-    grid-template-rows: 7% 15% 78%;
+    grid-template-rows: 10% 15% 75%;
     gap: 0;
 }
