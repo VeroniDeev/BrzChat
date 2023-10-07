@@ -5,15 +5,18 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
     overflow: hidden;
+
 }
 
-html {
+html, body {
     width: 100%;
     height: 100%;
 }
 
 body {
-    width: 100%;
-    height: 100%;
+    display: grid;
+    grid-template-rows: 7% 15% 78%;
+    gap: 0;
 }
