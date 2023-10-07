@@ -1,5 +1,13 @@
+import FriendList from "@/components/FriendList";
+import Message from "@/components/Message";
+
 const App = () => {
-  return <h1>Hello, World!</h1>;
+  return (
+    <>
+      <FriendList></FriendList>
+      <Message></Message>
+    </>
+  );
 };
 
 export default App;
