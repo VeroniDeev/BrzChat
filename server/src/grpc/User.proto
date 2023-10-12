@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+package package.name;
+
+message Friend {
+  string friend = 1;
+  int32 unread = 2;
+  bytes profilFriendPic = 3;
+  string username = 4;
+}
+
+message ReqUserInfo { string username = 1; }
+
+message ResUserInfo {
+  bytes profilPic = 1;
+  repeated Friend friend = 2;
+}
+
+message ReqFriendInfo { string username = 1; }
+
+message ResFriendInfo {
+  string username = 1;
+  bytes profilPic = 2;
+}
+
+service UserInfo {
+  rpc UserInfo(ReqUserInfo) returns (ResUserInfo);
+  rpc FriendInfo(ReqFriendInfo) returns (ResFriendInfo);
+}
