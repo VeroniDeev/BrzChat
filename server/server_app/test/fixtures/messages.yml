@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  sent: 2023-11-03
+  content: MyText
+  friendship: one
+  type: 
+
+two:
+  sent: 2023-11-03
+  content: MyText
+  friendship: two
+  type: 
