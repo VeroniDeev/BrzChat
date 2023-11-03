@@ -18,9 +18,10 @@ const config: Config = {
         "1/20": "3%",
       },
       boxShadow: {
-        "separate-top": "0px 4px 10px 0px rgba(0, 0, 0, 0.25)",
-        "separate-bottom": "0px -2px 10px 0px rgba(0, 0, 0, 0.25)",
-        "separate-bottom-inset": "0px -4px 10px 0px rgba(0, 0, 0, 0.25) inset",
+        "separate-top": "0px 4px 10px 0px rgba(159, 159, 159, 0.25)",
+        "separate-bottom": "0px -2px 10px 0px rgba(159, 159, 159, 0.25)",
+        "separate-bottom-inset":
+          "0px -4px 10px 0px rgba(159, 159, 159, 0.25) inset",
       },
     },
   },
